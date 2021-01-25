@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import db from "../../../db.json";
+
 export const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;

@@ -25,12 +25,14 @@ html, body {
 }
 `
 
-const theme = db.theme;
+const defaultTheme = db.theme;
+const halloweenTheme = db.halloweenTheme;
+const xmasTheme = db.xmasTheme;
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={defaultTheme} >
         <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>

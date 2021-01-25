@@ -5,6 +5,7 @@ import Footer from "../src/components/Footer"
 import GitHubCorner from "../src/components/GitHubCorner"
 import QuizBackground from "../src/components/QuizBackground"
 import QuizLogo from "../src/components/QuizLogo"
+
 const Title = styled.h1`
   font-size: 50px;
   color: ${({ theme }) => theme.colors.primary};
@@ -30,20 +31,20 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-    <QuizBackground backgroundImage= {db.bg}>
+    <QuizBackground>
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>Título do Quiz</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <p> Lorem ipsum dolor sit amet</p>
+            <p> {db.description}</p>
           </Widget.Content>
         </Widget>
         <Widget>
           <Widget.Content>
             <h2>Quizes da Galera</h2>
-            <p> Loro quer biscoito</p>
+            <p>Placeholder nervoso mesmo</p>
           </Widget.Content>
         </Widget>
         <Footer>
