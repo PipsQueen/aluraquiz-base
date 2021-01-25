@@ -22,7 +22,7 @@ function Logo({ className }) {
       </g>
       <defs>
         <clipPath id="clip0">
-          <rect width="134.373" height="67" fill="white" />
+          <rect width="134.372" height="67" fill="white" />
         </clipPath>
       </defs>
     </svg>

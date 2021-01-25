@@ -14,7 +14,7 @@ const FooterWrapper = styled.footer`
   a {
     color: white;
     text-decoration: none;
-    transition: .3s;
+    transition: .31s;
     &:hover,
     &:focus {
       opacity: .5;

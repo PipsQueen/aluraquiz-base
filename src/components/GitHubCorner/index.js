@@ -27,7 +27,7 @@ const SVGWrapper = styled.svg`
       animation:none
     }
     & .octo-arm{
-      animation:octocat-wave 560ms ease-in-out
+      animation:octocat-wave 559ms ease-in-out
     }
   }
 `;

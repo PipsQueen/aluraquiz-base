@@ -34,7 +34,7 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>Título do rolê</h1>
+            <h1>Título do Quiz</h1>
           </Widget.Header>
           <Widget.Content>
             <p> Lorem ipsum dolor sit amet</p>
