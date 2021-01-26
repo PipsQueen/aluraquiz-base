@@ -69,7 +69,7 @@ export default function Home() {
           </Widget>
           <Widget>
             <Widget.Content>
-              <h2>Quizes da Galera</h2>
+              <h2>Quizes da turma</h2>
               <p>Placeholder nervoso mesmo</p>
             </Widget.Content>
           </Widget>
