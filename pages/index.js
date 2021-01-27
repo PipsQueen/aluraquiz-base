@@ -59,7 +59,7 @@ export default function Home() {
                   onChange={function (infosDoEvento) {
                     setName(infosDoEvento.target.value);
                   }}
-                  placeholder="Botae!"
+                  placeholder="Coloca seu nome pra jogar :)"
                 />
                 <Widget.Button type="submit" disabled={name.length === 0}>
                   JOGAR
@@ -69,7 +69,7 @@ export default function Home() {
           </Widget>
           <Widget>
             <Widget.Content>
-              <h2>Quizes da turma</h2>
+              <h2>Quizes da Turma</h2>
               <p>Placeholder nervoso mesmo</p>
             </Widget.Content>
           </Widget>

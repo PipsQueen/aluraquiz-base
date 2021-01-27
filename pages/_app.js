@@ -29,9 +29,9 @@ html, body {
 
 const defaultTheme = db.theme;
 // eslint-disable-next-line no-unused-vars
-const { halloweenTheme } = db;
+const { halloweenTheme } = db.halloweenTheme;
 // eslint-disable-next-line no-unused-vars
-const { xmasTheme } = db;
+const { xmasTheme } = db.xmasTheme;
 
 // eslint-disable-next-line react/prop-types
 export default function App({ Component, pageProps }) {
@@ -43,6 +43,7 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet"
         />
+        <meta property="og-image" content={db.theme.bg}></meta>
       </Head>
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />

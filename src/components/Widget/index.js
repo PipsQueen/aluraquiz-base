@@ -62,6 +62,7 @@ Widget.Content = styled.div`
 Widget.Input = styled.input`
   font-family: 'Lato', sans-serif;
   display: flex;
+  justify-content: center;
   padding: 16px 16px 16px 16px;
   width: 100%;
   border-radius: 4px;
@@ -87,14 +88,14 @@ Widget.Button = styled.button`
   border: none;
   margin-top: 4px;
   padding: 16px 16px 16px 16px;
-  text-align: center;
+  justify-content: center;
   display:flex;
   color: ${({ theme }) => theme.colors.contrastText};
   width:100%;
   cursor: pointer;
   &:disabled{
     background-color: ${({ theme }) => theme.colors.secondary};
-    cursor: not-allowed;
+    opacity: 0.8;
   }
 `;
 
