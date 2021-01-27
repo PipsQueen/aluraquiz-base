@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 export const Widget = styled.div`
   margin-top: 24px;
@@ -7,7 +8,6 @@ export const Widget = styled.div`
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
-
   h1,
   h2,
   h3 {
@@ -20,6 +20,9 @@ export const Widget = styled.div`
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
+  }
+  * {
+    transition: 0.2s;
   }
 `;
 
@@ -49,16 +52,6 @@ Widget.Content = styled.div`
   }
 `;
 
-// Widget.Form = styled.a`
-//   padding: 24px 32px 32px 32px;
-//   display: inline-flex;
-//   box-align: center;
-//   margin-left: 24px;
-//   background-color: ${({ theme }) => theme.colors.primary};
-//   opacity: 1;
-//   //&:hover : opacity:1;
-// `;
-
 Widget.Input = styled.input`
   font-family: 'Lato', sans-serif;
   display: flex;
@@ -80,6 +73,12 @@ Widget.Input = styled.input`
   }
 `;
 
+Widget.Input.PropTypes = {
+  onChange: PropTypes.func.isRequired,
+  placeholder: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+};
+
 Widget.Button = styled.button`
   font-family: 'Lato', sans-serif;
   transition-duration: 0.3s;  
@@ -96,6 +95,24 @@ Widget.Button = styled.button`
   &:disabled{
     background-color: ${({ theme }) => theme.colors.secondary};
     opacity: 0.8;
+  }
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 `;
 
