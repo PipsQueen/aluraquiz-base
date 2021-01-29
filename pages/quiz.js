@@ -158,7 +158,7 @@ export default function QuizPage() {
     // Fetch
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 0.9 * 1000);
+    }, 1 * 1000);
   }, []);
 
   function onSubmit() {
