@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <Head>
         <title>{db.title}</title>
-        <meta og-image={({ theme }) => theme.bg} />
+        <meta og-image={db.bg} />
       </Head>
       <QuizBackground>
         <QuizContainer>

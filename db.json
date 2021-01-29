@@ -1,27 +1,78 @@
 {
+    "bg": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt45d6c2043ff36e28/5e21837f146ca8115b2d3332/Champion-List.jpg",
     "title": "LoreQuiz - League of Legends",
     "description": "Estaria você qualificade para ser editore do Jornal da Justiça? Teste seus conhecimentos sobre o universo de League of Legends!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://universe.leagueoflegends.com/images/noxus_crest_icon.png",
+        "title": "O que é uma Noxtoraa?",
+        "description": "Essa aqui tem na tela de carregamento...",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+           "Mais alto título dado para um membro do exército noxiano",
+           "Portões de pedra negra erguidos sobre estradas conquistadas por Noxus",
+           "Rito de passagem realizado por recém-recrutas de Noxus",
+           "Prato típico da capital de Noxus, consistindo de raízes cozidas e temperos ricos"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://universe.leagueoflegends.com/images/mt_targon_crest_icon.png",
+        "title": "Qual desses Aspectos não é nativo da região de Targon?",
+        "description": "Molhando o pézinho na lore dos campeões...",
+        "answer": 2,
+        "alternatives": [
+          "Leona",
+          "Diana",
+          "Taric",
+          "Aphelios"
+        ]
+      },
+      {
+        "image": "https://pbs.twimg.com/media/Eh-o1lcWoAAOBlI.png",
+        "title": "Quantos verões tinha Kai'sa vivido, aproximadamente, quando o vazio a engoliu?",
+        "description": "Essa informação é até que BEEM específica",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Dez verões",
+           "Doze verões",
+           "Quatorze verões",
+           "Dezesseis verões"
+        ]
+      },
+      {
+        "image": "https://universe.leagueoflegends.com/images/SGTitleCrest.png",
+        "title": "Qual opção contém ambas líderes dos dois grupos das Guardiãs Estelares?",
+        "description": "Lore de uma série de skins conta como lore, né?",
+        "answer": 3,
+        "alternatives": [
+           "Soraka e Poppy",
+           "Miss Fortune e Jinx",
+           "Syndra e Lulu",
+           "Ahri e Lux"
+        ]
+      },
+      {
+        "image": "https://news-a.akamaihd.net/public/images/articles/2018/september/ody2018lm/img/emote-veteran.png",
+        "title": "Qual desses é um hobby de Yasuo Odisseia?",
+        "description": "Se você respondeu a última é porque concorda que é lore SIM!",
+        "answer": 2,
+        "alternatives": [
+           "Construir pequenos navios fofinhos dentro de garrafas",
+           "Amargura e raiva",
+           "Ler livros idiotas de romance",
+           "Ficar bem quietinho e não falar nada"
+        ]
+      },
+      {
+        "image": "https://media.comicbook.com/2017/11/does-not-compute-1061433.png",
+        "title": "Qual dessas opções não é o nome verdadeiro de um campeão?",
+        "description": "A saideira precisava ser mais capciosa, não?",
+        "answer": 3,
+        "alternatives": [
+           "Tobias Foxtrot (Twisted Fate)",
+           "Khada Jhin",
+           "Xan Irelia",
+           "Okin Syndra"
         ]
       }
     ],

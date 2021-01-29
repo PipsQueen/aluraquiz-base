@@ -87,14 +87,17 @@ Widget.Button = styled.button`
   border: none;
   margin-top: 4px;
   padding: 16px 16px 16px 16px;
+  transform-origin: top;
   justify-content: center;
   display:flex;
   color: ${({ theme }) => theme.colors.contrastText};
   width:100%;
+  opacity: 1;
   cursor: pointer;
   &:disabled{
     background-color: ${({ theme }) => theme.colors.secondary};
-    opacity: 0.8;
+    opacity: -100;
+    z-index: -20;
   }
 `;
 
@@ -115,5 +118,18 @@ Widget.Topic = styled.a`
     opacity: .5;
   }
 `;
+
+Widget.Alert = styled.header`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 18px 33px;
+  background-color: ${({ theme }) => theme.colors.secondary};
+
+  * {
+    margin: 0;
+  }
+`;
+
 
 export default Widget;
