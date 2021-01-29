@@ -95,6 +95,7 @@ Widget.Button = styled.button`
   opacity: 1;
   cursor: pointer;
   &:disabled{
+    cursor: default;
     background-color: ${({ theme }) => theme.colors.secondary};
     opacity: -100;
     z-index: -20;
